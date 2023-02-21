@@ -1,7 +1,11 @@
-
+import Profile from "./PortfolioContainer/Home/Profile";
 
 function App() {
-  return( "hello world");
+  return (
+    <div className="App">
+      <Profile />
+    </div>
+  );
 }
 
 export default App;
